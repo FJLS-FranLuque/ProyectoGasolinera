@@ -12,3 +12,7 @@ Sistema de gestión para gasolinera desarrollado en Java con Programación Orien
 
 **Antes**
 
+
+
+**Después**
+
