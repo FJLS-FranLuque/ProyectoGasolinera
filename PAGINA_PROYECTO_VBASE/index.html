@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Box Express, tu gasolinera de confianza: combustible, tienda y lavado de vehículos.">
+    <title>Box Express | Tu gasolinera de confianza</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Ir al inicio">
+                <span class="brand-mark">BX</span>
+                <span>Box Express</span>
+            </a>
+
+            <div class="nav-links">
+                <a class="active" href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#sorteo">Sorteo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <img class="hero-image" src="img/foto-principal.jpeg" alt="Estación de servicio Box Express">
+            <div class="hero-overlay">
+                <p class="eyebrow">Combustible y servicio de calidad</p>
+                <h1>Bienvenido a <span>Box Express</span></h1>
+                <p class="hero-text">Una experiencia rápida, segura y cercana en cada visita.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#servicios">Ver servicios</a>
+                    <a class="button button-light" href="#contacto">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-section" aria-label="Nuestras instalaciones">
+            <div class="carousel">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+
+                <div class="slides">
+                    <figure>
+                        <img src="img/carrusel/exterior-gasolinera.jpeg" alt="Exterior de la gasolinera">
+                        <figcaption>Una estación moderna y accesible</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/carrusel/surtidores-gasolinera.jpeg" alt="Surtidores de combustible">
+                        <figcaption>Combustible confiable para tu vehículo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/carrusel/tienda-gasolinera.jpeg" alt="Tienda de conveniencia">
+                        <figcaption>Todo lo que necesitas en tu trayecto</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/carrusel/lavadero-coches.jpeg" alt="Lavadero de coches">
+                        <figcaption>Lavado y cuidado para tu vehículo</figcaption>
+                    </figure>
+                </div>
+
+                <div class="controls" aria-label="Seleccionar imagen">
+                    <label for="slide1" aria-label="Imagen 1"></label>
+                    <label for="slide2" aria-label="Imagen 2"></label>
+                    <label for="slide3" aria-label="Imagen 3"></label>
+                    <label for="slide4" aria-label="Imagen 4"></label>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="servicios">
+            <div class="section-heading">
+                <p class="eyebrow dark">Sobre nosotros</p>
+                <h2>Tu parada de confianza</h2>
+            </div>
+
+            <div class="sobre-nosotros-main">
+                <p>En Box Express hacemos que cada parada sea más cómoda. Te ofrecemos combustible de calidad,
+                    una tienda con productos para el camino y un servicio de lavado para mantener tu vehículo
+                    impecable.</p>
+                <p>Nos mueve ofrecer una atención cercana, rápida y segura. Nuestro equipo trabaja para que
+                    encuentres lo que necesitas y puedas continuar tu viaje con tranquilidad.</p>
+            </div>
+        </section>
+        </section>
+               <section class="section" id="contacto">
+            <div class="section-heading">
+                <p class="eyebrow dark">Contáctanos</p>
+                <h2>Estamos aquí para ayudarte</h2>
+            </div>
+
+            <div class="contacto-main">
+                <div class="contacto-texto">
+                    <h3>¿En qué podemos ayudarte?</h3>
+                    <p>Escríbenos o llámanos si tienes alguna pregunta sobre nuestros servicios. Nuestro equipo estará
+                        encantado de atenderte.</p>
+                </div>
+
+                <div class="contacto-datos">
+                    <div class="contacto-card">
+                        <span class="contacto-etiqueta">Teléfono</span>
+                        <a href="tel:+34783975234">+34 783 975 234</a>
+                    </div>
+
+                    <div class="contacto-card">
+                        <span class="contacto-etiqueta">Correo electrónico</span>
+                        <a href="mailto:boxexpress@gmail.com">boxexpress@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Box Express</p>
+        <p>Founder: Rodrigo Suarez, Francisco Luque, Ivan Rey y Mario Vargas</p>
+        <a href="#inicio">Volver arriba</a>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
